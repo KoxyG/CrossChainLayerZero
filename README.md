@@ -1,4 +1,4 @@
-# Cross-Chain Smart Contract with LayerZero
+# Cross-Chain Smart Contract DApp with LayerZero
 
 ## Overview
 
@@ -53,7 +53,7 @@ function _nonblockingLzReceive(uint16, bytes memory, uint64, bytes memory _paylo
 
 # Send
 
-The send function encodes and sends data from the source chain to the destination chain.
+The send function encodes and sends data from the source chain to the destination chain of both DApp.
 
 ```Solidity
 // Example: Receive data on the Mumbai chain
@@ -83,7 +83,7 @@ function trustAddress(address _otherContract) public onlyOwner {
 
 # Estimate Fees
 
-The estimateFees function is used to estimate the gas fee for the cross-chain interaction.
+The estimateFees function is used to estimate the gas fee for the cross-chain interaction of both DApp.
 
 ```Solidity
 // Example: Receive data on the Mumbai chain
@@ -98,8 +98,8 @@ function estimateFees(uint16 dstChainId, bytes calldata adapterParams, string me
 
 ## Deployed Contracts
 
-- **Sepolia:** [Contract on Sepolia](https://sepolia.etherscan.io/tx/0x87eabcb7c393bdec9db64415a2758dc5a948fa2d1fd9d97c7f6bf2cef28c5007)
-- **Mumbai:** [Contract on Mumbai](https://mumbai.polygonscan.com/tx/0xd63bc9b3d885d81c6b553b0a34012b47d8844e80b27547f9a2c694097fddbf42)
+- **Sepolia:** [Sepolia DApp](https://sepolia.etherscan.io/tx/0x87eabcb7c393bdec9db64415a2758dc5a948fa2d1fd9d97c7f6bf2cef28c5007)
+- **Mumbai:** [Mumbai DApp](https://mumbai.polygonscan.com/tx/0xd63bc9b3d885d81c6b553b0a34012b47d8844e80b27547f9a2c694097fddbf42)
 
 
 
