@@ -96,6 +96,10 @@ function estimateFees(uint16 dstChainId, bytes calldata adapterParams, string me
 ```
 
 
+## Deployed Contracts
+
+- **Sepolia:** [Contract on Sepolia](https://sepolia-explorer.example.com/address/0x1234567890abcdef1234567890abcdef12345678)
+- **Mumbai:** [Contract on Mumbai](https://mumbai-explorer.example.com/address/0xabcdef1234567890abcdef1234567890abcdef12)
 
 
 
