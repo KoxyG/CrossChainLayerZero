@@ -1,10 +1,10 @@
-# Cross-Chain Smart Contract DApp with LayerZero
+## Cross-Chain Smart Contract DApp with LayerZero
 
-## Overview
+# Overview
 
 This repository contains the source code and deployment information for a cross-chain smart contract built on LayerZero with remix. The contract facilitates the transfer of assets and data between the Sepolia source chain and the Mumbai destination chain.
 
-## Features
+# Features
 
 - **Cross-Chain Compatibility:** Enables seamless transfer of assets and data between Sepolia and Mumbai chains.
 - **LayerZero Framework:** Built on LayerZero architecture for optimal performance and scalability.
@@ -12,7 +12,7 @@ This repository contains the source code and deployment information for a cross-
 
 
 
-## FUNCTIONS USAGE
+# FUNCTIONS USAGE
 
 # Constructor
 
@@ -96,14 +96,14 @@ function estimateFees(uint16 dstChainId, bytes calldata adapterParams, string me
 ```
 
 
-## Deployed Contracts
+# Deployed Contracts
 
 - **Sepolia:** [Sepolia DApp](https://sepolia.etherscan.io/tx/0x87eabcb7c393bdec9db64415a2758dc5a948fa2d1fd9d97c7f6bf2cef28c5007)
 - **Mumbai:** [Mumbai DApp](https://mumbai.polygonscan.com/tx/0xd63bc9b3d885d81c6b553b0a34012b47d8844e80b27547f9a2c694097fddbf42)
 
 
 
-## Additional Cross-Chain Interoperability Protocol (xCall)
+# Additional Cross-Chain Interoperability Protocol (xCall)
 
 Check out another cross-chain interoperability protocol xCall codebase, designed to enhance decentralized communication between different blockchain networks. This protocol complements the functionality provided by layer Zero in this repository.
 
