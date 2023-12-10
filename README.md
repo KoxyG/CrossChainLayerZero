@@ -103,6 +103,12 @@ function estimateFees(uint16 dstChainId, bytes calldata adapterParams, string me
 
 
 
+## Additional Cross-Chain Interoperability Protocol (xCall)
 
+Check out another cross-chain interoperability protocol xCall codebase, designed to enhance decentralized communication between different blockchain networks. This protocol complements the functionality provided by layer Zero in this repository.
+
+[Link to xCall Codebase](https://github.com/KoxyG/xCall/tree/main)
+
+Feel free to explore and compare the features of both implementations for a more comprehensive understanding of cross-chain interoperability.
 
 
