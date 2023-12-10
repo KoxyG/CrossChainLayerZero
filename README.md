@@ -111,4 +111,6 @@ Check out another cross-chain interoperability protocol xCall codebase, designed
 
 Feel free to explore and compare the features of both implementations for a more comprehensive understanding of cross-chain interoperability.
 
+[Link to technical post on medium](https://medium.com/@devkoxy/bridging-blockchains-exploring-the-capabilities-of-xcall-and-layerzero-in-cross-chain-0be597f39acd)
+
 
